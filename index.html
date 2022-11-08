@@ -1,1 +1,144 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta property="og:title" content="Bill Schill Site">
+    <meta property="og:image"
+        content="images/gwdark.jpg">
+    <meta property="og:url" content="https://dex314.github.io/">
+    <meta property="og:description" content="Github IO Site for Displaying Projects">
+
+    <title>Bill Schill</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
+
+</head>
+
+<body>
+    <div class="jumbotron" id="home">
+        <!-- navigation bar -->
+        <nav class="fixed-top navbar navbar-expand-lg navbar-light navbar-fixed-top" id="my-navbar">
+            <div class="navbar-brand">
+                <a class='nav-link' style="color: white; border: solid; border-color: black;" href=#home> Bill Schill</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div style="flex: 1;"></div>
+                <div class="navbar-nav">
+                    <a class='nav-link' href=#home> HOME</a>
+                    <a class='nav-link' href=#about> ABOUT</a>
+                    <a class='nav-link' href=#projects-top> PROJECTS</a>
+                    <a class='nav-link' href=#contact> CONTACT</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- home -->
+        <div style="height:100%" class="py-5">
+            <div class="container text-center" id="home-inner">
+                <p class="h1"
+                  style="font-size:300%; color: #3CB371">Bill Schill</p>
+                <hr class="my-4">
+                <p class="h1"
+                  style="font-size:150%; color: #3CB371">
+                  Hi! Welcome to a collection of my personal Data Science / Programming projects.</p>
+                </p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href=#projects-top role="button"
+                        style="border-color:#A9A9A9; background-color:#A9A9A9; color: black">VIEW PROJECTS</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div class="container my-4 py-4 px-5" id="about">
+        <div>
+            <div class="row align-items-center my-5 py-5" id="about">
+                <div class="col-md-5">
+                    <img id="portrait" src="images/Tsunami_by_hokusai_19th_century.jpg" class="mx-auto d-block"> </img>
+                </div>
+                <div class="col-md-7 py-5 px-3">
+                    <p id="p1" class="pl-3 about-p">
+                        I am currently a Senior Data Scientist at First National Bank and have been, on and off, for about 5 years.
+						I currently work on Stress Testing / CECL regulatory modeling as well as Marketing based data science such attrition, lead generation, and customer segmentation.
+                    </p>
+                    <p id="p2" class="pl-3 about-p">
+                        I have worked in the health care space with Cigna, where I strengthened my SQL and ETL skills and found the benefits of strong data pipelines.
+						I worked on deep analysis of Customer Journeys, employee attrition forecasting, and Chronic Health classifications.
+						I also spent about 8 years working for US Steel in various roles through I.T., Business Analytics, and Research and Engineering.
+						In R&D I spent time creating various mathematical models for roll cooling procedures and specific heat transfer as well as multiple cost savings intiatives which included simple Random Forests for edge cracking prediction.
+                    </p>
+                    <p id="p3" class="pl-3 about-p">
+                        I recieved my MS in Applied Math from the University of Washington in 2012 and attended California University of PA for my undergrad in Math and minor in CS.
+                    </p>
+                    <p id="p4" class="pl-3 about-p">
+                        I enjoy working on data science related projects, and while Im not a programmer by trade have about 10 years of experience in Python and various years of experience in SQL, R, Matlab, Fortran, and Scala.
+						I also enjoy making music and have been a musician of various instruments for over 25 years.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- projects -->
+    <div id="projects-top" class="container-fluid py-5 px-5" style="background-color: #EFEFEF;">
+        <div id="projects" class="container"></div>
+    </div>
+
+    <!-- contact -->
+    <div class="container py-5 my-5" id="contact">
+        <div class="container d-flex flex-column align-items-center">
+            <p class="h2">Contact Me</p>
+            <div class="d-flex justify-content-center">
+                <a href="https://www.linkedin.com/in/billschill/" target="_blank"><i class="fa fa-linkedin icon-link"
+                        style="font-size: 25px;"></i></a>
+                <a href="https://github.com/dex314" target="_blank"><i class="fa fa-github icon-link"
+                        style="font-size: 25px;"></i></a>
+                <a href="mailto: schill.w@gmail.com" target="_blank"><i class="fa fa-envelope-o icon-link"
+                        style="font-size: 25px;"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid d-flex justify-content-center " id="footer"
+        style="background-color: #5895C8;  transform-origin: 0 100%; transform: scaleY(0)">
+        <span class='my-2' style="color:white;"> <a style="text-decoration: underline; color:inherit;" target="_blank"
+                href="https://github.com/dex314.github.io">Github IO
+                Repository</a> (last updated June 2021)</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
