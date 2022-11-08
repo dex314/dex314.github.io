@@ -1,0 +1,74 @@
+p, span {
+    color:#505050;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#my-navbar {
+    background-color:transparent;
+}
+
+.navbar-nav a {
+    color: white!important;
+}
+
+#home {
+    background-image: url("../images/gwdark.jpg");
+    height: 800px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+}
+
+#home-inner {
+    top: 50%!important;
+    left: 50%!important;
+    transform: translate(0%, 40%);
+}
+
+#home-inner > * {
+    color: white;
+}
+
+
+#home-button {
+    border-color: white;
+    border-style: solid;
+}
+
+#portrait {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-p {
+    border-left: solid;
+    border-left-color: #5895C8;
+    opacity: 0;
+    margin-left: 50px;
+}
+
+.icon-link {
+    background-color:transparent;
+    border-color:transparent;
+    color:#505050;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.icon-link:hover {
+    transform: scale(1.3);
+}
+
+
+.active {
+    border-top:solid #3CB371;
+    border-bottom:solid #5895C8;
+}

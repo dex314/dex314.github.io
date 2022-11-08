@@ -1,0 +1,22 @@
+{
+    "custchurn": {
+        "Title": "Customer Churn Analysis",
+        "Description": "A simple EDA and predictive model on Telco Customer Churn Data.",
+        "Image": "./images/soundwave.png",
+        "Skills/Tools": "Python",
+        "Categories": "Data Science, Machine Learning, Predictive Binary Classification",
+        "Links": {
+            "Github": "https://github.com/dex314/CustomerChurnAnalysis"
+        }
+    },
+    "glmnet": {
+        "Title": "GLM ElasticNet",
+        "Description": "A python implementation of GLM based Elastic Net with various distributions.",
+        "Image": "./images/soundwave.png",
+        "Skills/Tools": "Python",
+        "Categories": "Regression, Statistics",
+        "Links": {
+            "Github": "https://github.com/dex314/GLMNet"
+        }
+    },
+}
