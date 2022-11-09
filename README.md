@@ -1,3 +1,3 @@
 # dex314.github.io
 
-Creating a github io site.
+A github IO site for professional development.
