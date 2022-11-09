@@ -98,7 +98,9 @@ async function loadJSON(path) {
 }
 
 // fill html page with project
-let project = loadJSON("/projects/projects.json");
+// let project = loadJSON("/projects/projects.json");
+// having trouble with various pointers
+let project = loadJSON("https://dex314.github.io/projects/projects.json");
 project.then(
     function (p) {
         projKeys = Object.keys(p);
