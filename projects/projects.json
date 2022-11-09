@@ -18,5 +18,25 @@
         "Links": {
             "Github": "https://github.com/dex314/GLMNet"
         }
-    }
+    },
+    "cancertreatment": {
+        "Title": "Cancer Treatment",
+        "Description": "A python notebook from a Kaggle competition surrounding Cancer Treatment studies.",
+        "Image": "./images/soundwave.png",
+        "Skills/Tools": "Python",
+        "Categories": "Exploration, Statistics, NLP, Classification",
+        "Links": {
+            "Github": "https://github.com/dex314/CancerTreatment"
+        }
+    },
+    "way2b1work": {
+        "Title": "Gmail Analysis",
+        "Description": "Stemming from a take home assignment for an interview, I used the GMAIL API to understand more about my emails with NLP and a simple classification task.",
+        "Image": "./images/soundwave.png",
+        "Skills/Tools": "Python",
+        "Categories": "Exploration, Statistics, NLP, Classification",
+        "Links": {
+            "Github": "https://github.com/dex314/way2b1"
+        }
+    }    
 }
