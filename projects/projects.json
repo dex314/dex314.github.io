@@ -30,13 +30,24 @@
         }
     },
     "way2b1work": {
-        "Title": "Gmail Analysis",
+        "Title": "Gmail Analysis and Predictive Modeling",
         "Description": "Stemming from a take home assignment for an interview, I used the GMAIL API to understand more about my emails with NLP and a simple classification task.",
         "Image": "./images/soundwave.png",
         "Skills/Tools": "Python",
         "Categories": "Exploration, Statistics, NLP, Classification",
         "Links": {
             "Github": "https://github.com/dex314/way2b1"
+        }   
+    },
+    "rollcool": {
+        "Title": "Programmatic Solution to Steady State 3D Thermal Modeling",
+        "Description": "Stemming from a project from years ago, the ask was to solve the PDE for 3D steady state cooling of a steel cylinder when cooled from various angles. This work contains the proposed solution, math, and model.",
+        "Image": "./images/soundwave.png",
+        "Skills/Tools": "Mathematics, Partial Differential Equations, Python",
+        "Categories": "Mathematical Modeling",
+        "Links": {
+            "Github": "https://github.com/dex314/SteadyState3DCylinderCooling"
         }
     }    
+
 }
