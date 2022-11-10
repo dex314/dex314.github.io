@@ -12,7 +12,7 @@
     "glmnet": {
         "Title": "GLM ElasticNet",
         "Description": "A python implementation of GLM based Elastic Net with various distributions.",
-        "Image": "./images/soundwave.png",
+        "Image": "./images/normaldist.png",
         "Skills/Tools": "Python",
         "Categories": "Regression, Statistics",
         "Links": {
@@ -42,7 +42,7 @@
     "rollcool": {
         "Title": "Programmatic Solution to Steady State 3D Thermal Modeling",
         "Description": "Stemming from a project from years ago, the ask was to solve the PDE for 3D steady state cooling of a steel cylinder when cooled from various angles. This work contains the proposed solution, math, and model.",
-        "Image": "./images/soundwave.png",
+        "Image": "./images/pde.jpg",
         "Skills/Tools": "Mathematics, Partial Differential Equations, Python",
         "Categories": "Mathematical Modeling",
         "Links": {
